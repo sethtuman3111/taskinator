@@ -1,3 +1,4 @@
+
 var taskIdCounter = 0;
 
 var formEl = document.querySelector("#task-form");
@@ -298,3 +299,4 @@ pageContentEl.addEventListener("drop", dropTaskHandler);
 pageContentEl.addEventListener("dragleave", dragLeaveHandler);
 
 
+buttonEl.addEventListener("click", createTaskHandler);
